@@ -4,9 +4,9 @@
 # code so that all three of her dogs' names will be associated with 
 # the key 'dog' in the pets dictionary.
 
-# pets = { 'cat': 'pepe', 'dog': ['sparky', 'fido'], 'fish': 'oscar' }
+pets = { 'cat': 'pepe', 'dog': ['sparky', 'fido'], 'fish': 'oscar' }
 
-# pets['dog'].append('bowser') # originally this line was:  pets['dog'] = 'bowser'
+pets['dog'].append('Bowser')
 
-# print(pets)  # Output: {'cat': 'pepe', 'dog': 'bowser', 'fish': 'oscar'}
+print(pets)  # Output: {'cat': 'pepe', 'dog': 'bowser', 'fish': 'oscar'}
 
