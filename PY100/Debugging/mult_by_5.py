@@ -9,20 +9,20 @@
    
 # print(f"The result is {multiply_by_five(number)}!")
 
-# my_list = ['I', 'L', 'v', ' ', 'o', 'e', 'm', 't', 'h', 'i', 's', 'd', 'C', 'e', 'o', ' ']
+my_list = ['I', 'L', 'v', ' ', 'a', 'n', 'h', 'S', 'h', 'o', 'l', 'o', 'c', ' ', 'c', 'u', 'L', 'e', 'o', ' ']
 
-# new_list = []
+new_list = []
 
-# # Loop through the first half of the list
-# for i in range(len(my_list) // 2):
-#     new_list.append(my_list[i])  # Append from the start
-#     new_list.append(my_list[-(i + 1)])  # Append from the end
+# Loop through the first half of the list
+for i in range(len(my_list) // 2):
+    new_list.append(my_list[i])  # Append from the start
+    new_list.append(my_list[-(i + 1)])  # Append from the end
 
-# # Since the list length is even, no need to add the middle elements separately.
+# Since the list length is even, no need to add the middle elements separately.
 
-# # Join new_list into a single string
-# result = ''.join(new_list)
-# print(result)  # Output: "I Love Codesmith"
+# Join new_list into a single string
+result = ''.join(new_list)
+print(result)  # Output: "I Love Launch School"
 
 # Ask user for a number in the range of 1 through 7.  Program
 # should dispay corresponding day of the week to number entered by user.
@@ -31,24 +31,24 @@
 
 # Ask user for a number between 1 through 7.
 
-number = int(input("Enter a number between 1 and 7 "))
-# assign each weekday a number e.g, Monday - 1 
-if number == 1:
-    print('Monday')
-elif number == 2:
-    print('Tuesday')
-elif number == 3:
-    print('Wednesday')
-elif number == 4:
-    print('Thursday')
-elif number == 5:
-    print('Friday')
-elif number == 6:
-    print('Saturday')
-elif number == 7:
-    print('Sunday')
-else:
-    print('Please enter a valid number.')
+# number = int(input("Enter a number between 1 and 7 "))
+# # assign each weekday a number e.g, Monday - 1 
+# if number == 1:
+#     print('Monday')
+# elif number == 2:
+#     print('Tuesday')
+# elif number == 3:
+#     print('Wednesday')
+# elif number == 4:
+#     print('Thursday')
+# elif number == 5:
+#     print('Friday')
+# elif number == 6:
+#     print('Saturday')
+# elif number == 7:
+#     print('Sunday')
+# else:
+#     print('Please enter a valid number.')
 
 # match number:
 #     case 1: 
