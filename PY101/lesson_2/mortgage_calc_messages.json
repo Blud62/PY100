@@ -1,0 +1,9 @@
+{
+    "welcome": "Welcome to the Mortgage Calculator!",
+    "loan_amount_prompt": "Enter the loan amount:",
+    "interest_rate_prompt": "Enter the annual interest rate (e.g., 5 for 5%):",
+    "loan_duration_prompt": "Enter the loan duration in years:",
+    "invalid_input": "That doesn't look like a valid number.  Please try again.",
+    "result": "Your monthly payment is:  ${payment}",
+    "another_calculation": "Would you like to perform another calculation? (y/n)"
+}
